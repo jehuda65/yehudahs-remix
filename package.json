@@ -4,11 +4,8 @@
   "scripts": {
     "build": "npm run build:css && remix build",
     "build:css": "tailwindcss -m -i ./styles/app.css -o app/styles/app.css",
-    "run-dev": "concurrently \"npm run dev:css\" \"remix dev\"",
-    "dev:css": "tailwindcss -w -i ./styles/app.css -o app/styles/app.css",
-    "build-remix": "remix build",
-    "dev": "remix dev",
-    "start": "remix-serve build"
+    "dev": "concurrently \"npm run dev:css\" \"remix dev\"",
+    "dev:css": "tailwindcss -w -i ./styles/app.css -o app/styles/app.css"
   },
   "dependencies": {
     "@remix-run/node": "^1.5.1",

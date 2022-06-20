@@ -1,5 +1,4 @@
-{ 
-  "include": ["remix.env.d.ts", "**/*.ts", "**/*.tsx", "app/img"],
+{  "include": ["remix.env.d.ts", "**/*.ts", "**/*.tsx", "app/img"],
   "compilerOptions": {
     "lib": ["DOM", "DOM.Iterable", "ES2019"],
     "isolatedModules": true,

@@ -20,7 +20,7 @@ export default function Index() {
 
   
   
-<div>
+
         <div className="flex bg-gradient-to-r from-white to-sky-600 p-10 justify-center items-center h-24">
           <img className="h-24" src="img/logo.png" alt="logo" />
           <div className="w-36"></div>
@@ -201,6 +201,6 @@ export default function Index() {
           <div></div>
         </div>
       </div>
-      </div>
+      
   );
 }

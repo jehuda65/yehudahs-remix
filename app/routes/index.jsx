@@ -15,50 +15,8 @@ export default function Index() {
     // Look at /app/root.jsx it uses an <Outlet /> tag, which this replaces that by.
     // Speak to me if you want a deeper explanation.
     // Read this: https://remix.run/docs/en/v1/guides/routing
-    
-{/* <<<<<<< HEAD */}
 
-  
-  
-
-        <div className="flex bg-gradient-to-r from-white to-sky-600 p-10 justify-center items-center h-24">
-          <img className="h-24" src="img/logo.png" alt="logo" />
-          <div className="w-36"></div>
-          <div className="w-36"></div>
-          <div className="mx-20 flex space-x-14">
-            <a
-              className="mt-4 hover:bg-emerald-300 rounded px-2 py-1 transition-all"
-              href="/"
-            >
-              home
-            </a>
-            <a
-              className="mt-4 hover:bg-emerald-300 rounded px-2 py-1 transition-all"
-              href="/"
-            >
-              our services
-            </a>
-            <a
-              className="mt-4 hover:bg-emerald-300 rounded px-2 py-1 transition-all"
-              href="/"
-            >
-              about us
-            </a>
-            <a
-              className="mt-4 hover:bg-emerald-300 rounded px-2 py-1 transition-all"
-              href="/"
-            >
-              our team
-            </a>
-            <a
-              className="mt-4 hover:bg-emerald-300 rounded px-2 py-1 transition-all"
-              href="/"
-            >
-              contact us
-            </a>
-          </div>
-          </div>
-
+    <>
       <div className="flex bg-gradient-to-r from-white to-sky-600 p-10 justify-center items-center h-24">
         <img className="h-24" src="img/logo.png" alt="logo" />
         <div className="w-36"></div>
@@ -94,13 +52,45 @@ export default function Index() {
           >
             contact us
           </a>
-
         </div>
+      </div>
+      <div className="flex bg-gradient-to-r from-white to-sky-600 p-10 justify-center items-center h-24">
+        <img className="h-24" src="img/logo.png" alt="logo" />
+        <div className="w-36"></div>
+        <div className="w-36"></div>
+        <div className="mx-20 flex space-x-14">
+          <a
+            className="mt-4 hover:bg-emerald-300 rounded px-2 py-1 transition-all"
+            href="/"
+          >
+            home
+          </a>
+          <a
+            className="mt-4 hover:bg-emerald-300 rounded px-2 py-1 transition-all"
+            href="/"
+          >
+            our services
+          </a>
+          <a
+            className="mt-4 hover:bg-emerald-300 rounded px-2 py-1 transition-all"
+            href="/"
+          >
+            about us
+          </a>
+          <a
+            className="mt-4 hover:bg-emerald-300 rounded px-2 py-1 transition-all"
+            href="/"
+          >
+            our team
+          </a>
+          <a
+            className="mt-4 hover:bg-emerald-300 rounded px-2 py-1 transition-all"
+            href="/"
+          >
+            contact us
+          </a>
         </div>
-       
-       
-     
-
+      </div>
       <div className="text-white flex w-max bg-slate-500">
         <div id="x1">
           <h1 className="absolute text-9xl m-28 mt-60 font-mono">Secure IT</h1>
@@ -125,9 +115,9 @@ export default function Index() {
             protection
           </p>
           <button className="border-2 rounded-md w-36 m-7 px-4 py-2 text-green-500 bg-cyan-900 font-mono">
-            {/* Here we call the function: remember to use javascript inside your html 
-                you have to use curly braces {}
-              */}
+            {/* Here we call the function: remember to use javascript inside your html
+        you have to use curly braces {}
+      */}
             {changeWordToUpperCase("Consultancy")}
           </button>
           <button className="border-2 rounded-md w-36 m-7 px-2 py-2 text-green-500 bg-cyan-900 font-mono">
@@ -144,7 +134,6 @@ export default function Index() {
           <img src="img/cloud.png" alt="lock" />
         </div>
       </div>
-
       <div className="bg-cyan-900 text-white p-10">
         <h2 className="text-center">Securing IT and Knowledge assets</h2>
         <div className="columns-3 text-green-500">
@@ -170,7 +159,6 @@ export default function Index() {
           </li>
         </ol>
       </div>
-
       <div className="columns-2">
         <div>
           <h2>A CLEAR HOLISTIC BUSINESS-LED APPROACH</h2>
@@ -183,7 +171,6 @@ export default function Index() {
           <img src="img/chess.jpeg" alt="chess" />
         </div>
       </div>
-
       <div className="bg-sky-600">
         <h2>Secure IT Across the Enterprise</h2>
         <p>
@@ -201,6 +188,6 @@ export default function Index() {
           <div></div>
         </div>
       </div>
-      
+    </>
   );
 }

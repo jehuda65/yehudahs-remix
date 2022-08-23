@@ -489,36 +489,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 1rem;
 }
 
-.mt-64 {
-  margin-top: 16rem;
-}
-
-.ml-28 {
-  margin-left: 7rem;
-}
-
-.mt-72 {
-  margin-top: 18rem;
-}
-
 .mt-60 {
   margin-top: 15rem;
-}
-
-.mt-80 {
-  margin-top: 20rem;
 }
 
 .mt-96 {
   margin-top: 24rem;
 }
 
-.mt-20 {
-  margin-top: 5rem;
-}
-
-.mt-2 {
-  margin-top: 0.5rem;
+.ml-28 {
+  margin-left: 7rem;
 }
 
 .flex {
@@ -531,14 +511,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .h-24 {
   height: 6rem;
-}
-
-.h-64 {
-  height: 16rem;
-}
-
-.h-80 {
-  height: 20rem;
 }
 
 .w-36 {
@@ -557,14 +529,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-full {
   width: 100%;
-}
-
-.w-24 {
-  width: 6rem;
-}
-
-.w-32 {
-  width: 8rem;
 }
 
 .columns-3 {
@@ -595,16 +559,17 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-radius: 0.25rem;
 }
 
-.rounded-lg {
-  border-radius: 0.5rem;
-}
-
 .rounded-md {
   border-radius: 0.375rem;
 }
 
 .border-2 {
   border-width: 2px;
+}
+
+.bg-slate-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(100 116 139 / var(--tw-bg-opacity));
 }
 
 .bg-white {
@@ -620,16 +585,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-sky-600 {
   --tw-bg-opacity: 1;
   background-color: rgb(2 132 199 / var(--tw-bg-opacity));
-}
-
-.bg-slate-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(100 116 139 / var(--tw-bg-opacity));
-}
-
-.bg-cyan-800 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(21 94 117 / var(--tw-bg-opacity));
 }
 
 .bg-gradient-to-r {
@@ -659,10 +614,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .p-4 {
   padding: 1rem;
-}
-
-.p-8 {
-  padding: 2rem;
 }
 
 .px-2 {
@@ -711,19 +662,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-style: italic;
 }
 
-.text-blue-200 {
+.text-white {
   --tw-text-opacity: 1;
-  color: rgb(191 219 254 / var(--tw-text-opacity));
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .text-emerald-500 {
   --tw-text-opacity: 1;
   color: rgb(16 185 129 / var(--tw-text-opacity));
-}
-
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .text-green-500 {

@@ -1,4 +1,8 @@
 export default function Index() {
+  function changeWordToUpperCase(word) {
+    return word.toUpperCase();
+  }
+
   return (
     <>
       <head>
@@ -70,7 +74,7 @@ export default function Index() {
               asset protection
             </p>
             <button className="border-2 rounded-md w-36 m-7 px-4 py-2 text-green-500 bg-cyan-900 font-mono">
-              Consultancy
+              {changeWordToUpperCase("Consultancy")}
             </button>
             <button className="border-2 rounded-md w-36 m-7 px-2 py-2 text-green-500 bg-cyan-900 font-mono">
               Infrastructure

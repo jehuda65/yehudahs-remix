@@ -1,4 +1,5 @@
 export default function Index() {
+  // Create a function:
   function changeWordToUpperCase(word) {
     return word.toUpperCase();
   }
@@ -74,6 +75,9 @@ export default function Index() {
               asset protection
             </p>
             <button className="border-2 rounded-md w-36 m-7 px-4 py-2 text-green-500 bg-cyan-900 font-mono">
+              {/* Here we call the function: remember to use javascript inside your html 
+                you have to use curly braces {}
+              */}
               {changeWordToUpperCase("Consultancy")}
             </button>
             <button className="border-2 rounded-md w-36 m-7 px-2 py-2 text-green-500 bg-cyan-900 font-mono">

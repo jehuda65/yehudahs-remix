@@ -533,6 +533,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .ml-28 {
   margin-left: 7rem;
+<<<<<<< HEAD
 }
 
 .ml-3 {
@@ -541,6 +542,8 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mt-2 {
   margin-top: 0.5rem;
+=======
+>>>>>>> 459beb7f118db23fd3aaa71f6c8d8bba58fc29d8
 }
 
 .block {
@@ -563,6 +566,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 6rem;
 }
 
+<<<<<<< HEAD
 .h-16 {
   height: 4rem;
 }
@@ -575,6 +579,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 2rem;
 }
 
+=======
+>>>>>>> 459beb7f118db23fd3aaa71f6c8d8bba58fc29d8
 .w-36 {
   width: 9rem;
 }
@@ -593,6 +599,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 100%;
 }
 
+<<<<<<< HEAD
 .w-6 {
   width: 1.5rem;
 }
@@ -641,6 +648,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+=======
+>>>>>>> 459beb7f118db23fd3aaa71f6c8d8bba58fc29d8
 .columns-3 {
   -moz-columns: 3;
        columns: 3;
@@ -675,6 +684,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
+<<<<<<< HEAD
 .space-y-1 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));
@@ -685,6 +695,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-radius: 0.25rem;
 }
 
+=======
+>>>>>>> 459beb7f118db23fd3aaa71f6c8d8bba58fc29d8
 .rounded-md {
   border-radius: 0.375rem;
 }
@@ -717,6 +729,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(2 132 199 / var(--tw-bg-opacity));
 }
 
+<<<<<<< HEAD
 .bg-gray-800 {
   --tw-bg-opacity: 1;
   background-color: rgb(31 41 55 / var(--tw-bg-opacity));
@@ -732,6 +745,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
 }
 
+=======
+>>>>>>> 459beb7f118db23fd3aaa71f6c8d8bba58fc29d8
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
@@ -761,6 +776,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding: 1rem;
 }
 
+<<<<<<< HEAD
 .p-2 {
   padding: 0.5rem;
 }
@@ -769,6 +785,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding: 0.25rem;
 }
 
+=======
+>>>>>>> 459beb7f118db23fd3aaa71f6c8d8bba58fc29d8
 .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
